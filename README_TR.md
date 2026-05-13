@@ -3,6 +3,8 @@
 # LogShield Studio
 
 <img width="120" height="120" alt="logshield_studio_logo" src="./src-tauri/icons/128x128.png" />
+<br/>
+<br/>
 
 **Gelişmiş Log Analiz ve Veri Gizleme Paketi**
 
@@ -16,7 +18,7 @@
   <img src="https://img.shields.io/badge/Platform-8A8A8A?style=for-the-badge" /><img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" /><img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDMuNDQ5TDkuNzUgMi4xdjkuNDUxSDBWMy40NDl6bTkuNzUgOS4xMzlWMjIuMWwtOS43NS0xLjM1MVYxMi41ODloOS43NXptMS41LTkuNTM5TDI0IDB2MTEuNTVoLTEyLjc1VjMuMDR6bTEyLjc1IDkuNTRWMjRsLTEyLjc1LTMuMTVWMTIuNThIMjR6Ii8+PC9zdmc+&logoColor=white" /><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
 
-[![Güvenlik](https://img.shields.io/badge/G%C3%BCvenlik-Yerel--%C4%B0%C5%9Fleme-05a32f?style=for-the-badge)](/)
+[![Security](https://img.shields.io/badge/Security-Local--Processing-05a32f?style=for-the-badge)](/)
 
 ---
 
@@ -104,6 +106,14 @@ En son sürümü [Releases](https://github.com/kayaberkkan/logshield-studio/rele
 2. Herhangi bir `.log` veya `.txt` dosyasını ana pencereye sürükleyip bırakın.
 3. Tespit edilen riskleri ve maskelenmiş bilgileri etkileşimli bölmeli görünümde inceleyin.
 4. Gizlenmiş logu paylaşmak veya daha fazla analiz yapmak için güvenli bir şekilde dışa aktarın.
+
+> [!TIP]
+> ### 🍎 macOS "Uygulama hasarlı" Hatası
+> Eğer uygulamanın hasarlı olduğunu ve açılamadığını belirten bir mesaj alırsanız, terminalinizde şu komutu çalıştırın:
+> ```bash
+> sudo xattr -cr /Applications/LogShield\ Studio.app
+> ```
+> Bu, Apple tarafından henüz notarization yapılmamış uygulamalar için yaygın bir macOS güvenlik prosedürüdür.
 
 ---
 
