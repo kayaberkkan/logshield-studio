@@ -106,6 +106,14 @@ Download the latest version from the [Releases](https://github.com/kayaberkkan/l
 3. Review detected risks and masked information in the interactive split view.
 4. Export the redacted log safely for sharing or further analysis.
 
+> [!TIP]
+> ### 🍎 macOS "App is damaged" Error
+> If you see a message saying the app is damaged and cannot be opened, run the following command in your terminal:
+> ```bash
+> sudo xattr -cr /Applications/LogShield\ Studio.app
+> ```
+> This is a common macOS security procedure for apps not yet notarized by Apple.
+
 ---
 
 ## 🛡️ Privacy & Security
